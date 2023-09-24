@@ -1,26 +1,26 @@
 #include <iostream>
-
-constexpr int N_ELEMENTS = 100;
+using namespace std;
+constexpr int NELEMENTS = 100;
 
 int main()
 {
     int *b = new int[NELEMENTS];
-    std::cout << '1-100 ertekek duplazasa'
-    for (int i = 0;)
+    cout << "1-100 ertekek duplazasa"  << endl;
+    for (int i = 0; i < NELEMENTS; i++)
     {
         b[i] = i * 2;
     }
-    for (int i = 0; i; i++)
+    for (int i = 0; i < NELEMENTS; i++)
     {
-        std::cout << "Ertek:"
+        cout << "Ertek:" << endl;
     }    
-    std::cout << "Atlag szamitasa: " << std::endl;
+    cout << "Atlag szamitasa: " << endl;
     int atlag;
-    for (int i = 0; i < N_ELEMENTS, i++)
+    for (int i = 0; i < NELEMENTS; i++)
     {
-        atlag += b[i]
-    }
-    atlag /= N_ELEMENTS;
-    std::cout << "Atlag: " << atlag << std::endl;
+        atlag += b[i];
+    };
+    atlag /= NELEMENTS;
+    cout << "Atlag: " << atlag << endl;
     return 0;
 }
