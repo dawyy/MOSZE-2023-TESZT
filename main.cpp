@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 constexpr int NELEMENTS = 100;
-
+// bibla
 int main()
 {
     int *b = new int[NELEMENTS];
