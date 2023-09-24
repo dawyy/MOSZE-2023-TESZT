@@ -22,5 +22,8 @@ int main()
     };
     atlag /= NELEMENTS;
     cout << "Atlag: " << atlag << endl;
+
+    cout << "remelem jol aludtal Dave" << endl;
+    
     return 0;
 }
